@@ -1,0 +1,1284 @@
+{
+  "users": [
+    {
+      "id": "patient-default-1",
+      "_id": "patient-default-1",
+      "name": "Sagar Sharma",
+      "dateOfBirth": "1994-08-12",
+      "gender": "Male",
+      "email": "sagar@example.com",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "emailVerified": true,
+      "healthId": "MK-72D3A3",
+      "abhaNumber": "91-4567-8910-1123",
+      "abhaAddress": "sagar@abdm",
+      "abhaStatus": "linked"
+    },
+    {
+      "id": "user-1791361312",
+      "_id": "user-1791361312",
+      "name": "John Doe",
+      "dateOfBirth": "1990-01-01",
+      "gender": "Male",
+      "email": "john@test.com",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "emailVerified": true,
+      "healthId": "MK-9FB3DD",
+      "abhaStatus": "not_linked"
+    },
+    {
+      "id": "user-1791362014",
+      "_id": "user-1791362014",
+      "name": "Prashant Test",
+      "dateOfBirth": "1995-05-15",
+      "gender": "Male",
+      "email": "prashantg1531@gmail.com",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "emailVerified": true,
+      "healthId": "MK-5AC5E7",
+      "abhaStatus": "not_linked"
+    },
+    {
+      "id": "user-1791362738",
+      "_id": "user-1791362738",
+      "name": "Sagar Gupta",
+      "dateOfBirth": "2005-01-01",
+      "gender": "Male",
+      "email": "sagargupta472005@gmail.com",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "emailVerified": true,
+      "healthId": "MK-E42855",
+      "abhaStatus": "not_linked"
+    },
+    {
+      "id": "user-1791363823",
+      "_id": "user-1791363823",
+      "name": "sagar kumar gupta",
+      "dateOfBirth": "2022-06-07",
+      "gender": "Male",
+      "email": "sagargupta472005@gmail.com",
+      "passwordHash": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+      "emailVerified": true,
+      "healthId": "MK-1AB50C",
+      "abhaStatus": "not_linked"
+    },
+    {
+      "id": "user-1791364020",
+      "_id": "user-1791364020",
+      "name": "lfgfg",
+      "dateOfBirth": "2021-02-01",
+      "gender": "Male",
+      "email": "piyushdutta0987@gmail.com",
+      "passwordHash": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+      "emailVerified": true,
+      "healthId": "MK-10EC45",
+      "abhaStatus": "not_linked"
+    },
+    {
+      "id": "user-1791364804",
+      "_id": "user-1791364804",
+      "name": "Sagar Manual Test",
+      "dateOfBirth": "2005-01-01",
+      "gender": "Male",
+      "email": "sagargupta472005@gmail.com",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "emailVerified": true,
+      "healthId": "MK-F860D3",
+      "abhaStatus": "not_linked"
+    },
+    {
+      "id": "user-1791365375",
+      "_id": "user-1791365375",
+      "name": "Appy Kumari",
+      "dateOfBirth": "2015-02-07",
+      "gender": "Male",
+      "email": "appykumari650@gmail.com",
+      "passwordHash": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+      "emailVerified": true,
+      "healthId": "MK-CC5884",
+      "abhaStatus": "not_linked"
+    },
+    {
+      "id": "user-1791367597",
+      "_id": "user-1791367597",
+      "name": "PRASHANT GUPTA",
+      "dateOfBirth": "2013-06-07",
+      "gender": "Male",
+      "email": "jeetugupta0895@gmail.com",
+      "passwordHash": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+      "emailVerified": true,
+      "healthId": "MK-12F1FB",
+      "abhaStatus": "not_linked"
+    },
+    {
+      "id": "user-1791369149",
+      "_id": "user-1791369149",
+      "name": "piyush kumar",
+      "dateOfBirth": "2012-02-14",
+      "gender": "Male",
+      "email": "dilipdutta2611@gmail.com",
+      "passwordHash": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+      "emailVerified": true,
+      "healthId": "MK-543557",
+      "abhaStatus": "not_linked"
+    },
+    {
+      "id": "user-1791376016",
+      "_id": "user-1791376016",
+      "name": "Piyush",
+      "dateOfBirth": "2017-01-07",
+      "gender": "Male",
+      "email": "kumarsamridh19@gmail.com",
+      "passwordHash": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+      "emailVerified": true,
+      "healthId": "MK-0427C6",
+      "abhaStatus": "not_linked"
+    },
+    {
+      "id": "user-1791380126",
+      "_id": "user-1791380126",
+      "name": "Anita Roy",
+      "dateOfBirth": "1995-04-12",
+      "gender": "Female",
+      "email": "newpatient99@example.com",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "emailVerified": true,
+      "healthId": "MK-7D1809",
+      "abhaStatus": "not_linked"
+    },
+    {
+      "id": "user-1791380551",
+      "_id": "user-1791380551",
+      "name": "piyush",
+      "dateOfBirth": "2014-01-07",
+      "gender": "Male",
+      "email": "matu39849@gmail.com",
+      "passwordHash": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+      "emailVerified": true,
+      "healthId": "MK-342F11",
+      "abhaStatus": "not_linked"
+    }
+  ],
+  "healthRecords": {
+    "patient-default-1": {
+      "bloodGroup": "O+",
+      "height": "175 cm",
+      "weight": "72 kg",
+      "allergies": "Penicillin (Mild rash)",
+      "existingConditions": "Type 2 Diabetes (Well controlled)",
+      "currentMedications": "Metformin 500mg (Daily)",
+      "patientNotes": "Mild seasonal allergy symptoms occasionally."
+    }
+  },
+  "otps": {
+    "sagarchacha04@gmail.com": {
+      "otp": "890016",
+      "expiresAt": 1791367404.4464588,
+      "tempUser": {
+        "name": "sagar kumar gupta",
+        "dateOfBirth": "2009-02-07",
+        "gender": "Male",
+        "email": "sagarchacha04@gmail.com",
+        "passwordHash": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f"
+      }
+    },
+    "prashantg1531@gmail.com": {
+      "otp": "572714",
+      "expiresAt": 1791367963.0979636
+    },
+    "dilipdutta466@gmail.com": {
+      "otp": "893597",
+      "expiresAt": 1791369653.7453563,
+      "tempUser": {
+        "name": "piyush kumar",
+        "dateOfBirth": "2016-11-09",
+        "gender": "Male",
+        "email": "dilipdutta466@gmail.com",
+        "passwordHash": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f"
+      }
+    }
+  },
+  "documents": [
+    {
+      "id": "doc-1791380600970-c24ac8",
+      "_id": "doc-1791380600970-c24ac8",
+      "documentId": "doc-1791380600970-c24ac8",
+      "patientId": "user-1791380551",
+      "healthId": "MK-342F11",
+      "originalFileName": "demo.jpeg",
+      "storedFileName": "1791380595210-f99d2d78.jpeg",
+      "filePath": "/mnt/c/Users/sagar/OneDrive/Desktop/hack/medikiosk/medikiosk/backend/uploads/MK-342F11/1791380595210-f99d2d78.jpeg",
+      "fileType": "image/jpeg",
+      "fileSize": 100690,
+      "documentType": "prescription",
+      "processingStatus": "processed",
+      "extractionConfidence": 0.9,
+      "aiExtractedData": {
+        "documentType": "prescription",
+        "documentDate": "22/12/22",
+        "detectedLanguage": "en",
+        "confidence": 0.9,
+        "needsReview": false,
+        "patient": {
+          "name": "Vivek S.",
+          "age": "19",
+          "gender": "M"
+        },
+        "facility": {
+          "hospitalOrClinic": "Adichunchanagiri Institute of Medical Sciences Hospital & Research Centre",
+          "doctorName": null
+        },
+        "prescription": {
+          "diagnosisOrIndication": "Hypoglycemia",
+          "medicines": [
+            {
+              "medicineName": "5% Dextrose",
+              "dosage": null,
+              "frequency": "stat",
+              "duration": null,
+              "route": "iv",
+              "instructions": null,
+              "confidence": 0.9,
+              "needsReview": false
+            },
+            {
+              "medicineName": "ORS",
+              "dosage": "2 sachets",
+              "frequency": null,
+              "duration": null,
+              "route": null,
+              "instructions": "Adequate fluid intake",
+              "confidence": 0.9,
+              "needsReview": false
+            }
+          ]
+        },
+        "laboratoryReport": {
+          "laboratoryName": null,
+          "tests": []
+        },
+        "dischargeSummary": {
+          "hospitalName": null,
+          "diagnosis": null,
+          "procedures": [],
+          "surgeries": [],
+          "medications": []
+        },
+        "generalFindings": {
+          "diagnosesMentioned": [
+            "Hypoglycemia"
+          ],
+          "observations": [
+            "c/o giddiness, restlessness",
+            "RBS - 35 mg/dL",
+            "BP - 110/70",
+            "PR - 60 bpm"
+          ],
+          "procedures": []
+        }
+      },
+      "extractedData": {
+        "documentType": "prescription",
+        "documentDate": "22/12/22",
+        "detectedLanguage": "en",
+        "confidence": 0.9,
+        "needsReview": false,
+        "patient": {
+          "name": "Vivek S.",
+          "age": "19",
+          "gender": "M"
+        },
+        "facility": {
+          "hospitalOrClinic": "Adichunchanagiri Institute of Medical Sciences Hospital & Research Centre",
+          "doctorName": null
+        },
+        "prescription": {
+          "diagnosisOrIndication": "Hypoglycemia",
+          "medicines": [
+            {
+              "medicineName": "5% Dextrose",
+              "dosage": null,
+              "frequency": "stat",
+              "duration": null,
+              "route": "iv",
+              "instructions": null,
+              "confidence": 0.9,
+              "needsReview": false
+            },
+            {
+              "medicineName": "ORS",
+              "dosage": "2 sachets",
+              "frequency": null,
+              "duration": null,
+              "route": null,
+              "instructions": "Adequate fluid intake",
+              "confidence": 0.9,
+              "needsReview": false
+            }
+          ]
+        },
+        "laboratoryReport": {
+          "laboratoryName": null,
+          "tests": []
+        },
+        "dischargeSummary": {
+          "hospitalName": null,
+          "diagnosis": null,
+          "procedures": [],
+          "surgeries": [],
+          "medications": []
+        },
+        "generalFindings": {
+          "diagnosesMentioned": [
+            "Hypoglycemia"
+          ],
+          "observations": [
+            "c/o giddiness, restlessness",
+            "RBS - 35 mg/dL",
+            "BP - 110/70",
+            "PR - 60 bpm"
+          ],
+          "procedures": []
+        }
+      },
+      "isUserVerified": true,
+      "uploadedAt": "2026-10-07T13:43:20Z"
+    },
+    {
+      "id": "doc-1791378421408-ff7315",
+      "_id": "doc-1791378421408-ff7315",
+      "documentId": "doc-1791378421408-ff7315",
+      "patientId": "user-1791365375",
+      "healthId": "MK-CC5884",
+      "originalFileName": "demo3.jpeg",
+      "storedFileName": "1791378413200-e077a9e7.jpeg",
+      "filePath": "/mnt/c/Users/sagar/OneDrive/Desktop/hack/medikiosk/medikiosk/backend/uploads/MK-CC5884/1791378413200-e077a9e7.jpeg",
+      "fileType": "image/jpeg",
+      "fileSize": 141875,
+      "documentType": "prescription",
+      "processingStatus": "processed",
+      "extractionConfidence": 0.9,
+      "aiExtractedData": {
+        "documentType": "prescription",
+        "documentDate": "14/8/24",
+        "detectedLanguage": "en",
+        "confidence": 0.9,
+        "needsReview": true,
+        "patient": {
+          "name": "Anita Devi",
+          "age": "48",
+          "gender": "F"
+        },
+        "facility": {
+          "hospitalOrClinic": "Rheumatology Clinic, Krishna Hospital & Trauma Center",
+          "doctorName": "Dr. Himanshu Aggarwal"
+        },
+        "prescription": {
+          "diagnosisOrIndication": "? RA Atypical RF +ve",
+          "medicines": [
+            {
+              "medicineName": "Tab Medithra",
+              "dosage": "15",
+              "frequency": "once/week",
+              "duration": null,
+              "route": null,
+              "instructions": null,
+              "confidence": 0.85,
+              "needsReview": true
+            },
+            {
+              "medicineName": "Cap Calweet",
+              "dosage": "1",
+              "frequency": "OD",
+              "duration": null,
+              "route": null,
+              "instructions": null,
+              "confidence": 0.85,
+              "needsReview": true
+            },
+            {
+              "medicineName": "Tab Prednisone",
+              "dosage": "10",
+              "frequency": "twice daily",
+              "duration": null,
+              "route": null,
+              "instructions": "then once daily",
+              "confidence": 0.8,
+              "needsReview": true
+            },
+            {
+              "medicineName": "Tab Etoricoxib",
+              "dosage": "90",
+              "frequency": "OD",
+              "duration": null,
+              "route": null,
+              "instructions": "then once daily",
+              "confidence": 0.8,
+              "needsReview": true
+            },
+            {
+              "medicineName": "Cap Dripep DSR",
+              "dosage": null,
+              "frequency": "OD",
+              "duration": null,
+              "route": null,
+              "instructions": "BBF",
+              "confidence": 0.85,
+              "needsReview": true
+            }
+          ]
+        },
+        "laboratoryReport": {
+          "laboratoryName": null,
+          "tests": []
+        },
+        "dischargeSummary": {
+          "hospitalName": null,
+          "diagnosis": null,
+          "procedures": [],
+          "surgeries": [],
+          "medications": []
+        },
+        "generalFindings": {
+          "diagnosesMentioned": [
+            "RA Atypical RF +ve",
+            "Lt Knee Monoarthritis"
+          ],
+          "observations": [
+            "Other Jt OK"
+          ],
+          "procedures": []
+        }
+      },
+      "extractedData": {
+        "documentType": "prescription",
+        "documentDate": "14/8/24",
+        "detectedLanguage": "en",
+        "confidence": 0.9,
+        "needsReview": true,
+        "patient": {
+          "name": "Anita Devi",
+          "age": "48",
+          "gender": "F"
+        },
+        "facility": {
+          "hospitalOrClinic": "Rheumatology Clinic, Krishna Hospital & Trauma Center",
+          "doctorName": "Dr. Himanshu Aggarwal"
+        },
+        "prescription": {
+          "diagnosisOrIndication": "? RA Atypical RF +ve",
+          "medicines": [
+            {
+              "medicineName": "Tab Medithra",
+              "dosage": "15",
+              "frequency": "once/week",
+              "duration": null,
+              "route": null,
+              "instructions": null,
+              "confidence": 0.85,
+              "needsReview": true
+            },
+            {
+              "medicineName": "Cap Calweet",
+              "dosage": "1",
+              "frequency": "OD",
+              "duration": null,
+              "route": null,
+              "instructions": null,
+              "confidence": 0.85,
+              "needsReview": true
+            },
+            {
+              "medicineName": "Tab Prednisone",
+              "dosage": "10",
+              "frequency": "twice daily",
+              "duration": null,
+              "route": null,
+              "instructions": "then once daily",
+              "confidence": 0.8,
+              "needsReview": true
+            },
+            {
+              "medicineName": "Tab Etoricoxib",
+              "dosage": "90",
+              "frequency": "OD",
+              "duration": null,
+              "route": null,
+              "instructions": "then once daily",
+              "confidence": 0.8,
+              "needsReview": true
+            },
+            {
+              "medicineName": "Cap Dripep DSR",
+              "dosage": null,
+              "frequency": "OD",
+              "duration": null,
+              "route": null,
+              "instructions": "BBF",
+              "confidence": 0.85,
+              "needsReview": true
+            }
+          ]
+        },
+        "laboratoryReport": {
+          "laboratoryName": null,
+          "tests": []
+        },
+        "dischargeSummary": {
+          "hospitalName": null,
+          "diagnosis": null,
+          "procedures": [],
+          "surgeries": [],
+          "medications": []
+        },
+        "generalFindings": {
+          "diagnosesMentioned": [
+            "RA Atypical RF +ve",
+            "Lt Knee Monoarthritis"
+          ],
+          "observations": [
+            "Other Jt OK"
+          ],
+          "procedures": []
+        }
+      },
+      "isUserVerified": true,
+      "uploadedAt": "2026-10-07T13:07:01Z"
+    },
+    {
+      "id": "doc-1791369232788-7a2a4e",
+      "_id": "doc-1791369232788-7a2a4e",
+      "documentId": "doc-1791369232788-7a2a4e",
+      "patientId": "user-1791369149",
+      "healthId": "MK-543557",
+      "originalFileName": "demo2.jpeg",
+      "storedFileName": "1791369220222-0f6f6f44.jpeg",
+      "filePath": "/mnt/c/Users/sagar/OneDrive/Desktop/hack/medikiosk/medikiosk/backend/uploads/MK-543557/1791369220222-0f6f6f44.jpeg",
+      "fileType": "image/jpeg",
+      "fileSize": 93894,
+      "documentType": "prescription",
+      "processingStatus": "processed",
+      "extractionConfidence": 0.98,
+      "aiExtractedData": {
+        "documentType": "prescription",
+        "documentDate": "06/06/2026",
+        "detectedLanguage": "en",
+        "confidence": 0.98,
+        "needsReview": false,
+        "patient": {
+          "name": "Mr. Rajesh Verma",
+          "age": "48",
+          "gender": "M"
+        },
+        "facility": {
+          "hospitalOrClinic": "City Care Clinic",
+          "doctorName": "Dr. Anurag Sharma"
+        },
+        "prescription": {
+          "diagnosisOrIndication": null,
+          "medicines": [
+            {
+              "medicineName": "Ecosprin AV 75 mg",
+              "dosage": "75 mg",
+              "frequency": "1-0-0",
+              "duration": null,
+              "route": "Oral",
+              "instructions": null,
+              "confidence": 0.98,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Met XL 500",
+              "dosage": "500",
+              "frequency": "1-0-1",
+              "duration": null,
+              "route": "Oral",
+              "instructions": null,
+              "confidence": 0.98,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Glycomet GP 2",
+              "dosage": "2",
+              "frequency": "1-0-0",
+              "duration": null,
+              "route": "Oral",
+              "instructions": null,
+              "confidence": 0.98,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Atorvastatin 10 mg",
+              "dosage": "10 mg",
+              "frequency": "1-0-1",
+              "duration": null,
+              "route": "Oral",
+              "instructions": null,
+              "confidence": 0.98,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Telma 40",
+              "dosage": "40",
+              "frequency": "0-0-1",
+              "duration": null,
+              "route": "Oral",
+              "instructions": "SOS if BP > 140/90 mmHg",
+              "confidence": 0.98,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Shelcal 500",
+              "dosage": "500",
+              "frequency": "1-0-1",
+              "duration": null,
+              "route": "Oral",
+              "instructions": null,
+              "confidence": 0.98,
+              "needsReview": false
+            }
+          ]
+        },
+        "laboratoryReport": {
+          "laboratoryName": null,
+          "tests": []
+        },
+        "dischargeSummary": {
+          "hospitalName": null,
+          "diagnosis": null,
+          "procedures": [],
+          "surgeries": [],
+          "medications": []
+        },
+        "generalFindings": {
+          "diagnosesMentioned": [],
+          "observations": [
+            "Fatigue since 2 days",
+            "Body ache",
+            "Headache",
+            "No cough / cold"
+          ],
+          "procedures": []
+        }
+      },
+      "extractedData": {
+        "documentType": "prescription",
+        "documentDate": "06/06/2026",
+        "detectedLanguage": "en",
+        "confidence": 0.98,
+        "needsReview": false,
+        "patient": {
+          "name": "Mr. Rajesh Verma",
+          "age": "48",
+          "gender": "M"
+        },
+        "facility": {
+          "hospitalOrClinic": "City Care Clinic",
+          "doctorName": "Dr. Anurag Sharma"
+        },
+        "prescription": {
+          "diagnosisOrIndication": null,
+          "medicines": [
+            {
+              "medicineName": "Ecosprin AV 75 mg",
+              "dosage": "75 mg",
+              "frequency": "1-0-0",
+              "duration": null,
+              "route": "Oral",
+              "instructions": null,
+              "confidence": 0.98,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Met XL 500",
+              "dosage": "500",
+              "frequency": "1-0-1",
+              "duration": null,
+              "route": "Oral",
+              "instructions": null,
+              "confidence": 0.98,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Glycomet GP 2",
+              "dosage": "2",
+              "frequency": "1-0-0",
+              "duration": null,
+              "route": "Oral",
+              "instructions": null,
+              "confidence": 0.98,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Atorvastatin 10 mg",
+              "dosage": "10 mg",
+              "frequency": "1-0-1",
+              "duration": null,
+              "route": "Oral",
+              "instructions": null,
+              "confidence": 0.98,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Telma 40",
+              "dosage": "40",
+              "frequency": "0-0-1",
+              "duration": null,
+              "route": "Oral",
+              "instructions": "SOS if BP > 140/90 mmHg",
+              "confidence": 0.98,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Shelcal 500",
+              "dosage": "500",
+              "frequency": "1-0-1",
+              "duration": null,
+              "route": "Oral",
+              "instructions": null,
+              "confidence": 0.98,
+              "needsReview": false
+            }
+          ]
+        },
+        "laboratoryReport": {
+          "laboratoryName": null,
+          "tests": []
+        },
+        "dischargeSummary": {
+          "hospitalName": null,
+          "diagnosis": null,
+          "procedures": [],
+          "surgeries": [],
+          "medications": []
+        },
+        "generalFindings": {
+          "diagnosesMentioned": [],
+          "observations": [
+            "Fatigue since 2 days",
+            "Body ache",
+            "Headache",
+            "No cough / cold"
+          ],
+          "procedures": []
+        }
+      },
+      "isUserVerified": true,
+      "uploadedAt": "2026-10-07T10:33:52Z"
+    },
+    {
+      "documentId": "doc-1791367367",
+      "_id": "doc-1791367367",
+      "originalFileName": "Prescription_Record.jpg",
+      "fileType": "image/jpeg",
+      "fileSize": 204800,
+      "documentType": "prescription",
+      "processingStatus": "processed",
+      "extractionConfidence": 0.95,
+      "uploadedAt": "2026-10-07T10:02:47Z",
+      "filePath": "backend/uploads/MK-72D3A3/1788775661746-f936c3b9.jpg",
+      "aiExtractedData": {
+        "documentType": "prescription",
+        "documentDate": "15 Sep 2026",
+        "detectedLanguage": "en",
+        "confidence": 0.95,
+        "needsReview": false,
+        "patient": {
+          "name": "Aman Verma",
+          "age": "25",
+          "gender": "Male"
+        },
+        "facility": {
+          "hospitalOrClinic": "Ali Pharmacy",
+          "doctorName": "Drx. Fahad Imteyaz"
+        },
+        "prescription": {
+          "diagnosisOrIndication": "Dyspepsia, Gastritis, Indigestion",
+          "medicines": [
+            {
+              "medicineName": "Tab. Pantop 40",
+              "dosage": "40mg",
+              "frequency": "OD",
+              "duration": "15 days",
+              "route": "oral",
+              "instructions": "Morning empty stomach",
+              "confidence": 0.95,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Tab. Unizyme",
+              "dosage": "1 tab",
+              "frequency": "BD",
+              "duration": "10 days",
+              "route": "oral",
+              "instructions": "After meals",
+              "confidence": 0.95,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Syp. Digene Gel",
+              "dosage": "2 tsp",
+              "frequency": "TDS",
+              "duration": "7 days",
+              "route": "oral",
+              "instructions": "2 tsp after meals",
+              "confidence": 0.95,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Cap. Vizylac",
+              "dosage": "1 cap",
+              "frequency": "OD",
+              "duration": "10 days",
+              "route": "oral",
+              "instructions": "After breakfast",
+              "confidence": 0.95,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Cap. Becasules",
+              "dosage": "1 cap",
+              "frequency": "OD",
+              "duration": "15 days",
+              "route": "oral",
+              "instructions": "After breakfast",
+              "confidence": 0.95,
+              "needsReview": false
+            }
+          ]
+        },
+        "laboratoryReport": {
+          "laboratoryName": null,
+          "tests": []
+        },
+        "dischargeSummary": {
+          "hospitalName": null,
+          "diagnosis": null,
+          "procedures": [],
+          "surgeries": [],
+          "medications": []
+        },
+        "generalFindings": {
+          "diagnosesMentioned": [
+            "Dyspepsia",
+            "Gastritis",
+            "Indigestion"
+          ],
+          "observations": [
+            "Avoid oily & spicy food, small frequent meals, drink more water."
+          ],
+          "procedures": []
+        }
+      },
+      "extractedData": {
+        "documentType": "prescription",
+        "documentDate": "15 Sep 2026",
+        "detectedLanguage": "en",
+        "confidence": 0.95,
+        "needsReview": false,
+        "patient": {
+          "name": "Aman Verma",
+          "age": "25",
+          "gender": "Male"
+        },
+        "facility": {
+          "hospitalOrClinic": "Ali Pharmacy",
+          "doctorName": "Drx. Fahad Imteyaz"
+        },
+        "prescription": {
+          "diagnosisOrIndication": "Dyspepsia, Gastritis, Indigestion",
+          "medicines": [
+            {
+              "medicineName": "Tab. Pantop 40",
+              "dosage": "40mg",
+              "frequency": "OD",
+              "duration": "15 days",
+              "route": "oral",
+              "instructions": "Morning empty stomach",
+              "confidence": 0.95,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Tab. Unizyme",
+              "dosage": "1 tab",
+              "frequency": "BD",
+              "duration": "10 days",
+              "route": "oral",
+              "instructions": "After meals",
+              "confidence": 0.95,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Syp. Digene Gel",
+              "dosage": "2 tsp",
+              "frequency": "TDS",
+              "duration": "7 days",
+              "route": "oral",
+              "instructions": "2 tsp after meals",
+              "confidence": 0.95,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Cap. Vizylac",
+              "dosage": "1 cap",
+              "frequency": "OD",
+              "duration": "10 days",
+              "route": "oral",
+              "instructions": "After breakfast",
+              "confidence": 0.95,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Cap. Becasules",
+              "dosage": "1 cap",
+              "frequency": "OD",
+              "duration": "15 days",
+              "route": "oral",
+              "instructions": "After breakfast",
+              "confidence": 0.95,
+              "needsReview": false
+            }
+          ]
+        },
+        "laboratoryReport": {
+          "laboratoryName": null,
+          "tests": []
+        },
+        "dischargeSummary": {
+          "hospitalName": null,
+          "diagnosis": null,
+          "procedures": [],
+          "surgeries": [],
+          "medications": []
+        },
+        "generalFindings": {
+          "diagnosesMentioned": [
+            "Dyspepsia",
+            "Gastritis",
+            "Indigestion"
+          ],
+          "observations": [
+            "Avoid oily & spicy food, small frequent meals, drink more water."
+          ],
+          "procedures": []
+        }
+      }
+    },
+    {
+      "documentId": "doc-1791365126",
+      "_id": "doc-1791365126",
+      "originalFileName": "Prescription_Record.jpg",
+      "fileType": "image/jpeg",
+      "fileSize": 204800,
+      "documentType": "prescription",
+      "processingStatus": "processed",
+      "extractionConfidence": 0.95,
+      "uploadedAt": "2026-10-07T09:25:26Z",
+      "filePath": "backend/uploads/MK-72D3A3/1788775661746-f936c3b9.jpg",
+      "aiExtractedData": {
+        "documentType": "prescription",
+        "documentDate": "15 Sep 2026",
+        "detectedLanguage": "en",
+        "confidence": 0.95,
+        "needsReview": false,
+        "patient": {
+          "name": "Aman Verma",
+          "age": "25",
+          "gender": "Male"
+        },
+        "facility": {
+          "hospitalOrClinic": "Ali Pharmacy",
+          "doctorName": "Drx. Fahad Imteyaz"
+        },
+        "prescription": {
+          "diagnosisOrIndication": "Dyspepsia, Gastritis, Indigestion",
+          "medicines": [
+            {
+              "medicineName": "Tab. Pantop 40",
+              "dosage": "40mg",
+              "frequency": "OD",
+              "duration": "15 days",
+              "route": "oral",
+              "instructions": "Morning empty stomach",
+              "confidence": 0.95,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Tab. Unizyme",
+              "dosage": "1 tab",
+              "frequency": "BD",
+              "duration": "10 days",
+              "route": "oral",
+              "instructions": "After meals",
+              "confidence": 0.95,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Syp. Digene Gel",
+              "dosage": "2 tsp",
+              "frequency": "TDS",
+              "duration": "7 days",
+              "route": "oral",
+              "instructions": "2 tsp after meals",
+              "confidence": 0.95,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Cap. Vizylac",
+              "dosage": "1 cap",
+              "frequency": "OD",
+              "duration": "10 days",
+              "route": "oral",
+              "instructions": "After breakfast",
+              "confidence": 0.95,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Cap. Becasules",
+              "dosage": "1 cap",
+              "frequency": "OD",
+              "duration": "15 days",
+              "route": "oral",
+              "instructions": "After breakfast",
+              "confidence": 0.95,
+              "needsReview": false
+            }
+          ]
+        },
+        "laboratoryReport": {
+          "laboratoryName": null,
+          "tests": []
+        },
+        "dischargeSummary": {
+          "hospitalName": null,
+          "diagnosis": null,
+          "procedures": [],
+          "surgeries": [],
+          "medications": []
+        },
+        "generalFindings": {
+          "diagnosesMentioned": [
+            "Dyspepsia",
+            "Gastritis",
+            "Indigestion"
+          ],
+          "observations": [
+            "Avoid oily & spicy food, small frequent meals, drink more water."
+          ],
+          "procedures": []
+        }
+      },
+      "extractedData": {
+        "documentType": "prescription",
+        "documentDate": "15 Sep 2026",
+        "detectedLanguage": "en",
+        "confidence": 0.95,
+        "needsReview": false,
+        "patient": {
+          "name": "Aman Verma",
+          "age": "25",
+          "gender": "Male"
+        },
+        "facility": {
+          "hospitalOrClinic": "Ali Pharmacy",
+          "doctorName": "Drx. Fahad Imteyaz"
+        },
+        "prescription": {
+          "diagnosisOrIndication": "Dyspepsia, Gastritis, Indigestion",
+          "medicines": [
+            {
+              "medicineName": "Tab. Pantop 40",
+              "dosage": "40mg",
+              "frequency": "OD",
+              "duration": "15 days",
+              "route": "oral",
+              "instructions": "Morning empty stomach",
+              "confidence": 0.95,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Tab. Unizyme",
+              "dosage": "1 tab",
+              "frequency": "BD",
+              "duration": "10 days",
+              "route": "oral",
+              "instructions": "After meals",
+              "confidence": 0.95,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Syp. Digene Gel",
+              "dosage": "2 tsp",
+              "frequency": "TDS",
+              "duration": "7 days",
+              "route": "oral",
+              "instructions": "2 tsp after meals",
+              "confidence": 0.95,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Cap. Vizylac",
+              "dosage": "1 cap",
+              "frequency": "OD",
+              "duration": "10 days",
+              "route": "oral",
+              "instructions": "After breakfast",
+              "confidence": 0.95,
+              "needsReview": false
+            },
+            {
+              "medicineName": "Cap. Becasules",
+              "dosage": "1 cap",
+              "frequency": "OD",
+              "duration": "15 days",
+              "route": "oral",
+              "instructions": "After breakfast",
+              "confidence": 0.95,
+              "needsReview": false
+            }
+          ]
+        },
+        "laboratoryReport": {
+          "laboratoryName": null,
+          "tests": []
+        },
+        "dischargeSummary": {
+          "hospitalName": null,
+          "diagnosis": null,
+          "procedures": [],
+          "surgeries": [],
+          "medications": []
+        },
+        "generalFindings": {
+          "diagnosesMentioned": [
+            "Dyspepsia",
+            "Gastritis",
+            "Indigestion"
+          ],
+          "observations": [
+            "Avoid oily & spicy food, small frequent meals, drink more water."
+          ],
+          "procedures": []
+        }
+      }
+    }
+  ],
+  "kioskSessions": {
+    "kiosk-sess-1791367212": {
+      "sessionId": "kiosk-sess-1791367212",
+      "currentSection": "chief_complaint",
+      "answers": {},
+      "startedAt": 1791367212.4561343
+    },
+    "kiosk-sess-1791367367": {
+      "sessionId": "kiosk-sess-1791367367",
+      "currentSection": "chief_complaint",
+      "answers": {},
+      "startedAt": 1791367367.9354794
+    }
+  },
+  "clinicalSummaries": {
+    "patient-default-1": {
+      "clinicalOverview": "Sagar Sharma is a 32-year-old male with a history of well-controlled Type 2 Diabetes and a known penicillin allergy resulting in a mild rash. He currently presents with no acute complaints and is maintained on a single chronic medication.",
+      "keyClinicalFindings": [
+        "Type 2 Diabetes (Well controlled)",
+        "Penicillin allergy (Mild rash)",
+        "Mild seasonal allergy symptoms occasionally",
+        "No acute complaints explicitly documented"
+      ],
+      "prescriptionAssessment": "Patient is actively prescribed Metformin 500mg daily on an ongoing, chronic maintenance basis as documented in the patient profile record.",
+      "abnormalFindingsAlert": [
+        "No abnormal lab values flagged in available records."
+      ],
+      "medicationSafetyNotes": [
+        "No acute high-risk contraindications flagged in documented baseline medicines.",
+        "Review drug-drug and drug-food safety before initiating or altering concurrent regimens."
+      ],
+      "consultationChecklist": [
+        "Verify current glycemic control and compliance with Metformin 500mg daily.",
+        "Assess current status of mild seasonal allergy symptoms.",
+        "Confirm penicillin allergy history and reaction details."
+      ],
+      "unavailableInformation": [
+        "Recent metabolic panel not documented",
+        "No specific clinical observations noted in document text",
+        "No surgical history available"
+      ]
+    },
+    "user-1791369149": {
+      "clinicalOverview": "Piyush Kumar is a 14-year-old male presenting with a 2-day history of fatigue, body ache, and headache, with no reported cough or cold. Current records show no prior medical history, explicit diagnoses, or known drug allergies. He is currently prescribed a multi-drug regimen including cardiovascular and metabolic medications.",
+      "keyClinicalFindings": [
+        "Symptoms: Fatigue since 2 days, body ache, and headache",
+        "Denies cough or cold",
+        "Existing conditions: None documented",
+        "Relevant history: No prior medical history notes recorded"
+      ],
+      "prescriptionAssessment": "The patient is prescribed 6 medications: Ecosprin AV 75 mg (1-0-0), Met XL 500 (1-0-1), Glycomet GP 2 (1-0-0), Atorvastatin 10 mg (1-0-1), Telma 40 (0-0-1, SOS if BP > 140/90 mmHg), and Shelcal 500 (1-0-1), all for oral administration.",
+      "abnormalFindingsAlert": [
+        "No abnormal lab values flagged in available records.",
+        "No explicit diagnosis stated in available records."
+      ],
+      "medicationSafetyNotes": [
+        "No acute high-risk contraindications flagged in documented baseline medicines.",
+        "Review drug-drug and drug-food safety before initiating or altering concurrent regimens."
+      ],
+      "consultationChecklist": [
+        "Verify indication for complex chronic medications prescribed to a 14-year-old patient",
+        "Assess blood pressure and blood glucose levels given the prescribed medications (Telma 40, Glycomet GP, Met XL)",
+        "Evaluate duration and severity of current symptoms (fatigue, body ache, headache)",
+        "Confirm blood group, height, and weight measurements"
+      ],
+      "unavailableInformation": [
+        "Blood group not documented",
+        "Height not documented",
+        "Weight not documented",
+        "ABHA number not linked",
+        "Recent lab tests or diagnostic reports not documented"
+      ]
+    },
+    "user-1791380551": {
+      "clinicalOverview": "Piyush is a 12-year-old male presenting with complaints of giddiness and restlessness, associated with a documented Random Blood Sugar (RBS) of 35 mg/dL. He has a clinical diagnosis of Hypoglycemia with stable vital signs including a blood pressure of 110/70 mmHg and a pulse rate of 60 bpm. There are no prior medical history notes or known drug allergies recorded.",
+      "keyClinicalFindings": [
+        "Presenting complaints of giddiness and restlessness",
+        "Hypoglycemia diagnosis with RBS of 35 mg/dL",
+        "Vitals: BP 110/70 mmHg, PR 60 bpm",
+        "No known drug allergies documented"
+      ],
+      "prescriptionAssessment": "The patient is prescribed 5% Dextrose (stat, IV) and ORS (2 sachets with instructions for adequate fluid intake).",
+      "abnormalFindingsAlert": [
+        "RBS - 35 mg/dL indicating hypoglycemia",
+        "Symptoms of giddiness and restlessness"
+      ],
+      "medicationSafetyNotes": [
+        "No acute high-risk contraindications flagged in documented baseline medicines.",
+        "Review drug-drug and drug-food safety before initiating or altering concurrent regimens."
+      ],
+      "consultationChecklist": [
+        "Verify response to initial 5% Dextrose administration and repeat blood glucose levels.",
+        "Assess dietary intake and potential triggers for hypoglycemia.",
+        "Monitor resolution of giddiness and restlessness."
+      ],
+      "unavailableInformation": [
+        "Blood group not documented",
+        "Height and weight not documented",
+        "Recent metabolic panel not documented",
+        "No prior medical history notes recorded"
+      ]
+    }
+  },
+  "activeTokens": {
+    "mk_jwt_patient-default-1_1791380098_b22b30f7": "patient-default-1",
+    "mk_jwt_user-1791361312_1791380105_8288d45c": "user-1791361312",
+    "mk_jwt_user-1791369149_1791380111_03122cbb": "user-1791369149",
+    "mk_jwt_user-1791380126_1791380126_99a6e091": "user-1791380126",
+    "mk_jwt_user-1791380551_1791380551_7c1c9e9a": "user-1791380551",
+    "mk_jwt_user-1791380551_1791380576_4c114c16": "user-1791380551",
+    "mk_jwt_patient-default-1_1791385776_4c5a7494": "patient-default-1",
+    "mk_jwt_patient-default-1_1791385891_85dc51f7": "patient-default-1",
+    "mk_jwt_patient-default-1_1791385990_f49f450b": "patient-default-1",
+    "mk_jwt_patient-default-1_1791386102_500f01e2": "patient-default-1",
+    "mk_jwt_user-1791369149_1791386956_99b4236e": "user-1791369149",
+    "mk_jwt_user-1791369149_1791387124_0cf3221e": "user-1791369149",
+    "mk_jwt_user-1791369149_1791387261_cc2dbdef": "user-1791369149"
+  }
+}

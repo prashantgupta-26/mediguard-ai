@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface-dim":"#d2d9f4","tertiary-fixed-dim":"#68dba9","on-surface-variant":"#3d4947","primary-fixed-dim":"#6bd8cb","surface-container-highest":"#dae2fd","surface-variant":"#dae2fd","on-secondary-fixed":"#001d31","on-secondary":"#ffffff","on-tertiary-container":"#f5fff7","error":"#ba1a1a","surface-container-low":"#f2f3ff","surface-tint":"#006a61","secondary-container":"#5bb8fe","primary-container":"#008378","on-error-container":"#93000a","on-secondary-fixed-variant":"#004b73","tertiary-fixed":"#85f8c4","secondary-fixed":"#cce5ff","on-tertiary":"#ffffff","surface-container-high":"#e2e7ff","on-primary-fixed":"#00201d","primary":"#00685f","surface-bright":"#faf8ff","inverse-on-surface":"#eef0ff","error-container":"#ffdad6","outline":"#6d7a77","background":"#faf8ff","on-error":"#ffffff","on-primary":"#ffffff","surface":"#faf8ff","on-secondary-container":"#00476e","primary-fixed":"#89f5e7","inverse-surface":"#283044","outline-variant":"#bcc9c6","surface-container":"#eaedff","on-surface":"#131b2e","on-primary-fixed-variant":"#005049","secondary":"#006398","tertiary":"#006948","tertiary-container":"#00855d","on-tertiary-fixed":"#002114","inverse-primary":"#6bd8cb","on-tertiary-fixed-variant":"#005137","secondary-fixed-dim":"#93ccff","on-primary-container":"#f4fffc","on-background":"#131b2e","surface-container-lowest":"#ffffff"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-xs":"0.5rem","margin-kiosk":"2rem","space-md":"1rem","space-2xs":"0.25rem","space-3xl":"4rem","space-2xl":"3rem","space-xl":"2rem","touch-target-min":"3.5rem","space-lg":"1.5rem","gutter-kiosk":"1.5rem","space-sm":"0.75rem"},"fontFamily":{"headline-md":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"title":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"display-mobile":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"headline-md-mobile":["Plus Jakarta Sans"],"display":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"]},"fontSize":{"headline-md":["28px",{"lineHeight":"36px","fontWeight":"600"}],"headline-lg-mobile":["26px",{"lineHeight":"34px","letterSpacing":"-0.01em","fontWeight":"600"}],"title":["18px",{"lineHeight":"26px","fontWeight":"600"}],"label-md":["14px",{"lineHeight":"20px","letterSpacing":"0.02em","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"display-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-lg":["16px",{"lineHeight":"24px","letterSpacing":"0.01em","fontWeight":"600"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.04em","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"headline-md-mobile":["22px",{"lineHeight":"30px","fontWeight":"600"}],"display":["48px",{"lineHeight":"56px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.015em","fontWeight":"600"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-7xl mx-auto px-space-md lg:px-space-xl flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-xl"><div class="flex items-center gap-space-sm"><img alt="MediKiosk Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Upr4u9YZ7AR6nv5t4H5gJ-UoYvwKqvKymog-3goH5wFpUhxZCVUgjsrVQOZ9m0OK_OPNCm0ipl0GWSgeNzB1y_UcacgU0nmw6PEl-Bi_-iCS_qAkQziRS_loJdeDtt6popx6C_K7XKTvoe7LCs7UWm9jsJzEZTv5WLtWBuEA16kin3OBk0logA60ahwrJvvwRijpywuqNynOP-lG1V3z5IEYNTU8-xDj6UokFcW2PBkhwzZ4FB5_0CgA"/><span class="font-title text-title text-primary tracking-tight">MediKiosk</span></div><nav class="hidden xl:flex items-center gap-space-lg" data-active-classes="text-primary font-title"><a class="text-on-surface-variant font-label-md text-label-md transition-colors hover:text-on-surface" data-path="dashboard" href="#">Dashboard</a><a class="text-on-surface-variant font-label-md text-label-md transition-colors hover:text-on-surface" data-path="health-interview" href="#">Health Interview</a><a class="text-on-surface-variant font-label-md text-label-md transition-colors hover:text-on-surface" data-path="medical-documents" href="#">Medical Documents</a><a aria-current="page" class="transition-colors text-primary font-title" data-path="health-summary" href="#">Health Summary</a><a class="text-on-surface-variant font-label-md text-label-md transition-colors hover:text-on-surface" data-path="health-profile" href="#">Health Profile</a></nav></div><div class="flex items-center gap-space-md"><div class="hidden md:flex items-center gap-space-2xs px-space-sm py-space-xs bg-surface-container-low rounded-full"><span class="w-2 h-2 rounded-full bg-tertiary animate-pulse"></span><span class="font-label-sm text-label-sm text-on-surface-variant">AI Assistant Active</span></div><div class="hidden sm:flex items-center gap-space-xs px-space-sm py-space-xs bg-surface-container rounded-lg group cursor-pointer hover:bg-surface-container-high transition-colors"><span class="font-label-sm text-label-sm text-on-surface font-semibold">Health ID: MK-7F29A4</span><button aria-label="Copy Health ID" class="flex items-center text-on-surface-variant group-hover:text-primary transition-colors"><span class="material-symbols-outlined text-[16px]">content_copy</span></button></div><div class="relative group flex items-center gap-space-sm pl-space-xs cursor-pointer"><img alt="Profile" class="w-8 h-8 rounded-full object-cover shadow-[0_1px_8px_rgba(0,0,0,0.04)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKmbEwgLmBmAF_Xa4F12fJPMvEwsGIc15ATV_Mc3170_13IMvEYFUxDPhafYa0ap8IOrh_plRQ17FITOJ8SgZn62MLLHLU9UfxmD8Dy-mc16oNGAKzxpFmiTcWuH6ZUnJG7y_V6xFhFX_pE3mVodGXn_noq8PI5svivxJ2Wg_3dzW9pkDW8XTfhtYnbW6tA-3erge2G3G_TUlR40BFdAsOS8NT0hnqCA9J09o1JbYEddIpwLD6lcaS"/><div class="hidden lg:flex flex-col text-left"><span class="font-label-md text-label-md text-on-surface leading-tight">Rahul Kumar</span><span class="font-label-sm text-label-sm text-on-surface-variant leading-tight">Patient</span></div><span class="material-symbols-outlined text-on-surface-variant text-[20px] transition-transform duration-200 group-hover:rotate-180">expand_more</span><div class="absolute right-0 top-full mt-space-xs w-52 bg-surface-container-lowest rounded-xl shadow-[0_12px_32px_-4px_rgba(15,23,42,0.08)] py-space-xs hidden group-hover:block z-50"><div class="px-space-md py-space-xs border-b border-surface-container lg:hidden"><p class="font-label-md text-label-md text-on-surface">Rahul Kumar</p><p class="font-label-sm text-label-sm text-on-surface-variant">Health ID: MK-7F29A4</p></div><a class="flex items-center gap-space-sm px-space-md py-space-xs text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="health-profile" href="#"><span class="material-symbols-outlined text-[18px]">person</span>Profile</a><a class="flex items-center gap-space-sm px-space-md py-space-xs text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="health-summary" href="#"><span class="material-symbols-outlined text-[18px]">assignment</span>Health Summary</a><a class="flex items-center gap-space-sm px-space-md py-space-xs text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="patient-settings" href="#"><span class="material-symbols-outlined text-[18px]">settings</span>Settings</a><div class="my-space-2xs border-t border-surface-container"></div><a class="flex items-center gap-space-sm px-space-md py-space-xs text-error font-label-md text-label-md hover:bg-error-container hover:text-on-error-container transition-colors" data-path="patient-login" href="#"><span class="material-symbols-outlined text-[18px]">logout</span>Logout</a></div></div></div></div></header><div class="fixed bottom-space-lg right-space-lg z-50 flex flex-col gap-space-xs pointer-events-none" id="toast-container"><div class="pointer-events-auto flex items-center gap-space-sm bg-surface-container-lowest shadow-[0_12px_32px_-4px_rgba(15,23,42,0.08)] px-space-md py-space-sm rounded-xl"><span class="material-symbols-outlined text-primary text-[20px]">check_circle</span><div class="flex flex-col"><span class="font-label-md text-label-md text-on-surface">System Ready</span><span class="font-body-sm text-body-sm text-on-surface-variant">Health ID MK-7F29A4 loaded</span></div></div></div><main class="w-full pt-20 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Subtle Clinical Canvas Atmosphere -->
+<div class="relative w-full max-w-7xl mx-auto px-space-md lg:px-space-xl py-space-lg">
+<!-- Top Utility & Metadata Action Strip -->
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md pb-space-lg">
+<div class="flex flex-col gap-space-2xs">
+<div class="flex items-center gap-space-xs">
+<span class="px-space-xs py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm uppercase tracking-wider">ABDM Compliant Clinical Intake</span>
+<span class="text-on-surface-variant font-label-sm text-label-sm">• Sync Timestamp: 11:42 AM IST</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">My Comprehensive Health Summary</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+          Automated clinical synthesis generated from your intake dialogue and verified diagnostic uploads. Ready for physician handover.
+        </p>
+</div>
+<!-- Quick Action Group -->
+<div class="flex flex-wrap items-center gap-space-xs">
+<button class="flex items-center gap-space-2xs px-space-md py-space-sm rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-all active:scale-95 shadow-sm" id="refreshBtn">
+<span class="material-symbols-outlined text-[18px] text-primary">sync</span>
+<span>Refresh Intake Data</span>
+</button>
+<button class="flex items-center gap-space-2xs px-space-md py-space-sm rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-all active:scale-95 shadow-sm" onclick="window.print()">
+<span class="material-symbols-outlined text-[18px]">print</span>
+<span>Print for Doctor</span>
+</button>
+<button class="flex items-center gap-space-2xs px-space-md py-space-sm rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md transition-all shadow-md active:scale-95" id="downloadPdfBtn">
+<span class="material-symbols-outlined text-[18px]">download</span>
+<span>Download PDF</span>
+</button>
+</div>
+</div>
+<!-- Patient Demographic Strip Card -->
+<div class="w-full bg-surface-container-lowest rounded-xl shadow-md p-space-md lg:p-space-lg mb-space-lg relative overflow-hidden">
+<div class="absolute top-0 right-0 w-96 h-96 bg-primary-fixed/20 rounded-full blur-3xl pointer-events-none -mr-20 -mt-20"></div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-md items-center relative z-10">
+<!-- Patient Identity -->
+<div class="flex items-center gap-space-sm lg:col-span-2">
+<div class="w-14 h-14 rounded-full bg-surface-container-high flex items-center justify-center text-primary font-headline-sm text-headline-sm shadow-inner shrink-0">
+            RK
+          </div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-space-2xs">
+<span class="font-headline-sm text-headline-sm text-on-surface truncate">Rahul Kumar</span>
+<span class="material-symbols-outlined text-tertiary text-[20px]" title="Identity Verified through Aadhaar/ABHA">verified</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">48 years • Male • O Positive</span>
+</div>
+</div>
+<!-- Health ID Token -->
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">ABHA / Health ID</span>
+<div class="flex items-center gap-space-xs mt-0.5">
+<span class="font-title text-title text-primary font-bold tracking-tight">MK-7F29A4</span>
+<button aria-label="Copy Health ID" class="p-1 rounded-md hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" id="copyIdBtn">
+<span class="material-symbols-outlined text-[18px]">content_copy</span>
+</button>
+</div>
+</div>
+<!-- Contact Metadata -->
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Primary Contact</span>
+<div class="flex items-center gap-space-2xs mt-0.5 truncate">
+<span class="material-symbols-outlined text-on-surface-variant text-[16px] shrink-0">mail</span>
+<span class="font-body-sm text-body-sm text-on-surface truncate">rahul.demo@example.com</span>
+</div>
+</div>
+<!-- Intake Session Window -->
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Intake Captured</span>
+<div class="flex items-center gap-space-2xs mt-0.5 text-on-surface font-label-md text-label-md">
+<span class="material-symbols-outlined text-tertiary text-[18px]">event_available</span>
+<span>Today, 14 Oct 2026</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Triage & Primary Alert Banner -->
+<div class="w-full bg-secondary-fixed/40 rounded-xl p-space-md mb-space-lg flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md shadow-sm">
+<div class="flex items-start md:items-center gap-space-sm">
+<div class="p-space-xs rounded-lg bg-surface-container-lowest shadow-sm text-error shrink-0">
+<span class="material-symbols-outlined text-[28px] animate-pulse">warning</span>
+</div>
+<div>
+<div class="flex items-center gap-space-xs">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Chief Concern: Chest pain for 2 days</h2>
+<span class="px-space-xs py-0.5 rounded-md bg-error-container text-on-error-container font-label-sm text-label-sm uppercase font-semibold">Priority Clinical Review</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+            Triaged via MediKiosk protocol rule-set (Cardiovascular risk profile detected. Escalated for rapid ECG verification).
+          </p>
+</div>
+</div>
+<div class="flex items-center gap-space-xs shrink-0 self-end md:self-center">
+<span class="font-label-sm text-label-sm text-on-secondary-fixed font-medium">OPD Token:</span>
+<span class="px-space-sm py-1 bg-surface-container-lowest rounded-lg font-headline-sm text-headline-sm text-secondary font-bold shadow-sm">C-14</span>
+</div>
+</div>
+<!-- Main Clinical Grid Mosaic -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg mb-space-xl">
+<!-- Left Column: Primary Symptom & HPI Breakdown (7 cols) -->
+<div class="lg:col-span-7 flex flex-col gap-space-lg">
+<!-- Section 1 & 2: Structured HPI -->
+<div class="bg-surface-container-lowest rounded-xl shadow-md p-space-lg relative">
+<div class="flex items-center justify-between pb-space-md">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-lg bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">stethoscope</span>
+</div>
+<h3 class="font-title text-title text-on-surface">History of Present Illness (HPI)</h3>
+</div>
+<span class="font-label-sm text-label-sm px-space-xs py-0.5 rounded-full bg-surface-container text-on-surface-variant font-medium">Structured Voice Transcription</span>
+</div>
+<!-- Pain Gauge & Visual Scale Integration -->
+<div class="bg-surface-container-low rounded-xl p-space-md mb-space-md flex flex-col sm:flex-row items-center justify-between gap-space-md">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Reported Pain Severity</span>
+<div class="flex items-baseline gap-space-xs mt-1">
+<span class="font-display text-display text-error font-bold leading-none">7</span>
+<span class="font-headline-sm text-headline-sm text-on-surface-variant">/ 10</span>
+<span class="font-label-md text-label-md text-error ml-space-xs font-semibold">Severe / Sharp Pressure</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-1">Validated via patient digital visual analog scale (VAS)</span>
+</div>
+<!-- Inline SVG Gauge Visualizer -->
+<div class="relative w-28 h-20 shrink-0 flex items-center justify-center">
+<svg class="w-28 h-20 transform -rotate-90" viewbox="0 0 100 80">
+<path d="M 15 70 A 40 40 0 0 1 85 70" fill="none" stroke="#e2e7ff" stroke-linecap="round" stroke-width="10"></path>
+<path d="M 15 70 A 40 40 0 0 1 85 70" fill="none" stroke="#ba1a1a" stroke-dasharray="140" stroke-dashoffset="42" stroke-linecap="round" stroke-width="10"></path>
+</svg>
+<div class="absolute bottom-1 flex flex-col items-center">
+<span class="material-symbols-outlined text-error text-[20px]">local_hospital</span>
+<span class="font-label-sm text-label-sm font-bold text-on-surface">Level 7</span>
+</div>
+</div>
+</div>
+<!-- Structured Clinical Bullet List -->
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-start gap-space-sm p-space-sm rounded-lg bg-surface hover:bg-surface-container-low transition-colors">
+<div class="p-1 rounded-md bg-surface-container text-primary shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">schedule</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Onset &amp; Frequency</span>
+<p class="font-body-md text-body-md text-on-surface-variant">Started 2 days ago, intermittent recurring episodes lasting between 15 to 25 minutes each.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm p-space-sm rounded-lg bg-surface hover:bg-surface-container-low transition-colors">
+<div class="p-1 rounded-md bg-surface-container text-error shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">alt_route</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Anatomical Radiation</span>
+<p class="font-body-md text-body-md text-on-surface-variant">Originates substernally and distinctly radiates toward the left shoulder and left lower jaw angle.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm p-space-sm rounded-lg bg-surface hover:bg-surface-container-low transition-colors">
+<div class="p-1 rounded-md bg-surface-container text-secondary shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">trending_up</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Aggravating &amp; Relieving Factors</span>
+<p class="font-body-md text-body-md text-on-surface-variant">Aggravated upon brisk physical exertion and climbing flight of stairs. Partially eases after 10-15 minutes of complete rest.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm p-space-sm rounded-lg bg-surface hover:bg-surface-container-low transition-colors">
+<div class="p-1 rounded-md bg-surface-container text-tertiary shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">vital_signs</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Associated Symptoms</span>
+<p class="font-body-md text-body-md text-on-surface-variant">Accompanied by moderate breathlessness (exertional dyspnea) and mild cold diaphoresis (clammy perspiration).</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Section 3 & 4: Chronic Conditions & Verified Medications -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Chronic Conditions Card -->
+<div class="bg-surface-container-lowest rounded-xl shadow-md p-space-md flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-space-xs pb-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px]">history_edu</span>
+<h3 class="font-title text-title text-on-surface">Medical History</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">Confirmed pre-existing diagnosed chronic conditions:</p>
+<div class="flex flex-wrap gap-space-xs">
+<div class="flex items-center gap-space-2xs px-space-sm py-1.5 rounded-lg bg-surface-container-high text-on-surface font-label-md text-label-md shadow-sm">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span>Hypertension (2024)</span>
+</div>
+<div class="flex items-center gap-space-2xs px-space-sm py-1.5 rounded-lg bg-surface-container-high text-on-surface font-label-md text-label-md shadow-sm">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span>Type 2 Diabetes Mellitus</span>
+</div>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs text-on-surface-variant font-label-sm text-label-sm flex items-center gap-space-2xs">
+<span class="material-symbols-outlined text-[16px] text-tertiary">check_circle</span>
+<span>Matched with ABDM Health Records</span>
+</div>
+</div>
+<!-- Current Medications Card -->
+<div class="bg-surface-container-lowest rounded-xl shadow-md p-space-md flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-space-xs pb-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px]">medication</span>
+<h3 class="font-title text-title text-on-surface">Active Medications</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">Extracted from prescriptions &amp; self-reported:</p>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px] shrink-0 mt-0.5">pill</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Amlodipine 5 mg</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Oral Tablet • Once daily (Morning)</span>
+<span class="font-label-sm text-label-sm text-tertiary font-medium mt-0.5">Ongoing since Aug 2026 (Compliance: High)</span>
+</div>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs text-on-surface-variant font-label-sm text-label-sm flex items-center gap-space-2xs">
+<span class="material-symbols-outlined text-[16px] text-tertiary">verified</span>
+<span>Verified from Fortis Prescription Scan</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column: Vitals, Allergies & Attached Documents (5 cols) -->
+<div class="lg:col-span-5 flex flex-col gap-space-lg">
+<!-- Section 6: Baseline Vitals & Prior Investigations -->
+<div class="bg-surface-container-lowest rounded-xl shadow-md p-space-lg">
+<div class="flex items-center justify-between pb-space-md">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-lg bg-secondary-fixed flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[20px]">monitor_heart</span>
+</div>
+<h3 class="font-title text-title text-on-surface">Baseline Vitals &amp; Labs</h3>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">From Records</span>
+</div>
+<div class="grid grid-cols-2 gap-space-sm mb-space-md">
+<!-- Blood Pressure Card -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Blood Pressure</span>
+<div class="flex items-baseline gap-1 mt-1">
+<span class="font-headline-md text-headline-md text-error font-bold">150/95</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">mmHg</span>
+</div>
+<div class="mt-2 flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-error"></span>
+<span class="font-label-sm text-label-sm text-error font-semibold">Elevated (Stage 2)</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">Recorded 12 Aug 2026</span>
+</div>
+<!-- Fasting Blood Sugar Card -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Fasting Blood Sugar</span>
+<div class="flex items-baseline gap-1 mt-1">
+<span class="font-headline-md text-headline-md text-secondary font-bold">128</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">mg/dL</span>
+</div>
+<div class="mt-2 flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-secondary-container"></span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Borderline High</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">Lab Report: 10 Aug 2026</span>
+</div>
+</div>
+<!-- Trend Sparkline SVG -->
+<div class="p-space-sm rounded-lg bg-surface flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface font-medium">3-Month Systolic Pressure Trend</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Fluctuating between 138 - 152 mmHg</span>
+</div>
+<svg class="w-24 h-8 text-primary overflow-visible" viewbox="0 0 100 30">
+<path d="M0,22 L20,18 L40,25 L60,12 L80,15 L100,5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+<circle cx="100" cy="5" fill="currentColor" r="3"></circle>
+</svg>
+</div>
+</div>
+<!-- Section 5: Known Allergies -->
+<div class="bg-surface-container-lowest rounded-xl shadow-md p-space-md">
+<div class="flex items-center gap-space-xs pb-space-xs">
+<span class="material-symbols-outlined text-tertiary text-[20px]">shield</span>
+<h3 class="font-title text-title text-on-surface">Known Drug &amp; Food Allergies</h3>
+</div>
+<div class="flex items-center gap-space-sm p-space-sm rounded-lg bg-tertiary-fixed/30 mt-space-xs">
+<div class="w-7 h-7 rounded-full bg-tertiary text-on-tertiary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">done_all</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">No Known Drug Allergies (NKDA)</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Patient confirms zero allergic reaction to Penicillin, NSAIDs, Sulfa, or environmental triggers.</span>
+</div>
+</div>
+</div>
+<!-- Section 7: Linked Documents -->
+<div class="bg-surface-container-lowest rounded-xl shadow-md p-space-md">
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">attachment</span>
+<h3 class="font-title text-title text-on-surface">Attached Source Documents</h3>
+</div>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm font-bold">3 Files</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<!-- Document 1 -->
+<div class="flex items-center justify-between p-space-xs rounded-lg hover:bg-surface-container-low transition-colors group cursor-pointer">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="material-symbols-outlined text-error text-[24px]">picture_as_pdf</span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface truncate group-hover:text-primary transition-colors">Cardiology_Prescription_Aug26.pdf</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Dr. S. Mehta • Fortis Escorts • 1.2 MB</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary text-[20px]">visibility</span>
+</div>
+<!-- Document 2 -->
+<div class="flex items-center justify-between p-space-xs rounded-lg hover:bg-surface-container-low transition-colors group cursor-pointer">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="material-symbols-outlined text-secondary text-[24px]">lab_profile</span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface truncate group-hover:text-primary transition-colors">Metabolic_Panel_Aug2026.pdf</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Dr. Lal PathLabs • Verified OCR • 840 KB</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary text-[20px]">visibility</span>
+</div>
+<!-- Document 3 -->
+<div class="flex items-center justify-between p-space-xs rounded-lg hover:bg-surface-container-low transition-colors group cursor-pointer">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="material-symbols-outlined text-tertiary text-[24px]">description</span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface truncate group-hover:text-primary transition-colors">Discharge_Summary_2024.pdf</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Max Healthcare • Inpatient Record • 3.4 MB</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary text-[20px]">visibility</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- AI Assistant Patient-Safe Disclaimer Box -->
+<div class="w-full bg-surface-container-high rounded-xl p-space-md mb-space-xl flex items-start gap-space-md">
+<div class="p-space-xs rounded-lg bg-surface-container-lowest text-primary shadow-sm shrink-0">
+<span class="material-symbols-outlined text-[24px]">smart_toy</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold uppercase tracking-wider">Clinical Safety &amp; AI Assist Notice</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 leading-relaxed">
+          MediKiosk AI Assistant organizes your stated symptoms and uploaded documents for your consulting doctor. MediKiosk does not provide medical diagnoses, treatment plans, or emergency triage advice. All clinical findings must be interpreted and validated in person by a registered healthcare practitioner.
+        </p>
+</div>
+</div>
+<!-- Floating / Sticky Handover Action Tray -->
+<div class="sticky bottom-4 z-40 w-full bg-surface-container-lowest/95 backdrop-blur-xl rounded-2xl shadow-xl p-space-md flex flex-col sm:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-xs text-on-surface-variant">
+<span class="material-symbols-outlined text-tertiary text-[20px]">lock</span>
+<span class="font-label-sm text-label-sm">Session encrypted via ABDM 256-bit Key Exchange. Ready for physical OPD desk transfer.</span>
+</div>
+<div class="flex items-center gap-space-md w-full sm:w-auto">
+<button class="flex-1 sm:flex-none flex items-center justify-center gap-space-2xs px-space-lg py-3 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-lg text-label-lg transition-all active:scale-95 shadow-sm" id="editInfoBtn">
+<span class="material-symbols-outlined text-[20px]">edit_note</span>
+<span>Edit / Correct Information</span>
+</button>
+<button class="flex-1 sm:flex-none flex items-center justify-center gap-space-2xs px-space-xl py-3 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg transition-all active:scale-95 shadow-lg" id="saveAndPresentBtn">
+<span class="material-symbols-outlined text-[20px]">stethoscope</span>
+<span>Save &amp; Present to Consulting Doctor</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Interactive Client-side Script -->
+<script>
+    (function() {
+      // Copy Health ID
+      const copyBtn = document.getElementById('copyIdBtn');
+      if (copyBtn) {
+        copyBtn.addEventListener('click', function() {
+          navigator.clipboard.writeText('MK-7F29A4').then(function() {
+            const toast = document.getElementById('toast-container');
+            if (toast) {
+              const alertBox = document.createElement('div');
+              alertBox.className = 'pointer-events-auto flex items-center gap-space-sm bg-surface-container-lowest shadow-lg px-space-md py-space-sm rounded-xl transition-all duration-300 transform translate-y-0 opacity-100';
+              alertBox.innerHTML = `
+                <span class="material-symbols-outlined text-tertiary text-[20px]">content_copy</span>
+                <div class="flex flex-col">
+                  <span class="font-label-md text-label-md text-on-surface">Health ID Copied</span>
+                  <span class="font-body-sm text-body-sm text-on-surface-variant">MK-7F29A4 saved to clipboard</span>
+                </div>
+              `;
+              toast.appendChild(alertBox);
+              setTimeout(() => {
+                alertBox.classList.add('opacity-0', 'translate-y-2');
+                setTimeout(() => alertBox.remove(), 300);
+              }, 3000);
+            }
+          });
+        });
+      }
+
+      // Download PDF Toast Action
+      const downloadBtn = document.getElementById('downloadPdfBtn');
+      if (downloadBtn) {
+        downloadBtn.addEventListener('click', function() {
+          const toast = document.getElementById('toast-container');
+          if (toast) {
+            const alertBox = document.createElement('div');
+            alertBox.className = 'pointer-events-auto flex items-center gap-space-sm bg-surface-container-lowest shadow-lg px-space-md py-space-sm rounded-xl transition-all duration-300';
+            alertBox.innerHTML = `
+              <span class="material-symbols-outlined text-primary text-[20px]">picture_as_pdf</span>
+              <div class="flex flex-col">
+                <span class="font-label-md text-label-md text-on-surface">PDF Generating</span>
+                <span class="font-body-sm text-body-sm text-on-surface-variant">Compiling clinical bundle for Rahul Kumar...</span>
+              </div>
+            `;
+            toast.appendChild(alertBox);
+            setTimeout(() => {
+              alertBox.classList.add('opacity-0', 'translate-y-2');
+              setTimeout(() => alertBox.remove(), 300);
+            }, 3000);
+          }
+        });
+      }
+
+      // Refresh button spin microinteraction
+      const refreshBtn = document.getElementById('refreshBtn');
+      if (refreshBtn) {
+        refreshBtn.addEventListener('click', function() {
+          const icon = refreshBtn.querySelector('.material-symbols-outlined');
+          if (icon) icon.classList.add('animate-spin');
+          setTimeout(() => {
+            if (icon) icon.classList.remove('animate-spin');
+          }, 1000);
+        });
+      }
+
+      // Save and Present Action Handler
+      const saveBtn = document.getElementById('saveAndPresentBtn');
+      if (saveBtn) {
+        saveBtn.addEventListener('click', function() {
+          const originalText = saveBtn.innerHTML;
+          saveBtn.innerHTML = `
+            <span class="material-symbols-outlined text-[20px] animate-spin">progress_activity</span>
+            <span>Transmitting to Doctor's Console...</span>
+          `;
+          saveBtn.classList.add('opacity-90');
+          setTimeout(() => {
+            saveBtn.innerHTML = `
+              <span class="material-symbols-outlined text-[20px]">check_circle</span>
+              <span>Intake Ready at Counter C-14</span>
+            `;
+            saveBtn.classList.replace('bg-primary', 'bg-tertiary');
+            setTimeout(() => {
+              saveBtn.innerHTML = originalText;
+              saveBtn.classList.replace('bg-tertiary', 'bg-primary');
+              saveBtn.classList.remove('opacity-90');
+            }, 3500);
+          }, 1200);
+        });
+      }
+
+      // Edit info button navigation feedback
+      const editBtn = document.getElementById('editInfoBtn');
+      if (editBtn) {
+        editBtn.addEventListener('click', function() {
+          const navTarget = document.querySelector('nav a[data-path="health-interview"]');
+          if (navTarget) navTarget.click();
+        });
+      }
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-low py-space-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="max-w-7xl mx-auto px-space-md lg:px-space-xl flex flex-col sm:flex-row items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="MediKiosk Logo" class="h-6 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Upr4u9YZ7AR6nv5t4H5gJ-UoYvwKqvKymog-3goH5wFpUhxZCVUgjsrVQOZ9m0OK_OPNCm0ipl0GWSgeNzB1y_UcacgU0nmw6PEl-Bi_-iCS_qAkQziRS_loJdeDtt6popx6C_K7XKTvoe7LCs7UWm9jsJzEZTv5WLtWBuEA16kin3OBk0logA60ahwrJvvwRijpywuqNynOP-lG1V3z5IEYNTU8-xDj6UokFcW2PBkhwzZ4FB5_0CgA"/><span class="font-body-sm text-body-sm text-on-surface-variant">© 2024 MediKiosk Healthcare Systems. ABDM-Compliant Clinical Infrastructure.</span></div><div class="flex items-center gap-space-lg"><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors" data-path="privacy-security" href="#">Privacy &amp; Security</a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors" data-path="help-support" href="#">Help Desk</a><div class="flex items-center gap-space-2xs text-tertiary font-label-sm text-label-sm"><span class="material-symbols-outlined text-[16px]">verified_user</span><span>Encrypted ABHA Record</span></div></div></div></footer></body></html>
