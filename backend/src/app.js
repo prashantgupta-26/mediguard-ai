@@ -31,16 +31,18 @@ app.use(cors({
     // Always allow local development origins
     if (devOrigins.includes(origin)) return callback(null, true);
 
-    const frontendUrl = process.env.FRONTEND_URL ? process.env.FRONTEND_URL.trim().replace(/\/+$/, '') : null;
+    const frontendUrl = process.env.FRONTEND_URL ? process.env.FRONTEND_URL.trim() : null;
     
-    // Allow if FRONTEND_URL matches
-    if (frontendUrl && (origin === frontendUrl || origin.startsWith(frontendUrl))) {
-      return callback(null, true);
-    }
-
-    // Allow Vercel preview deployments if FRONTEND_URL is on vercel.app
-    if (frontendUrl && frontendUrl.includes('vercel.app') && origin.endsWith('.vercel.app')) {
-      return callback(null, true);
+    // Allow if FRONTEND_URL matches (supports single URL or comma-separated list)
+    if (frontendUrl) {
+      const allowedList = frontendUrl.split(',').map(u => u.trim().replace(/\/+$/, '')).filter(Boolean);
+      if (allowedList.some(u => origin === u || origin.startsWith(u))) {
+        return callback(null, true);
+      }
+      // Allow Vercel preview deployments if any FRONTEND_URL is on vercel.app
+      if (allowedList.some(u => u.includes('vercel.app')) && origin.endsWith('.vercel.app')) {
+        return callback(null, true);
+      }
     }
 
     // Allow in non-production environments
